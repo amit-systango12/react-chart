@@ -68,6 +68,13 @@
   margin: 10px;
 }
 
+.square {
+  height: 100px;
+  width: 100px;
+  background: red;
+  margin: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

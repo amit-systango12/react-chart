@@ -1,6 +1,8 @@
 import ReactEcharts from "echarts-for-react";
 import allData from "../response.json";
 
+console.log(allData);
+
 let value1155 = 0;
 let fungible = 0;
 let liquidityPool = 0;
@@ -8,6 +10,7 @@ let nonFungible = 0;
 let dumpers = 0;
 let buyers = 0;
 let balance = 0;
+
 
 allData.contracts_count_sort.map((item) => {
   if (item.TYPE === "1155") {
