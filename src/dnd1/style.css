@@ -50,3 +50,31 @@
     display: block;
     border: 2px solid red;
   }
+
+  .widget-drop-area {
+    height: 110px;
+    width: 110px;
+  }
+  
+  .widget-highlight {
+    display: block;
+    border: 2px solid red;
+    margin-left: 15px;
+    margin-top: 4px;
+  }
+
+  .column-highlight {
+    display: block;
+    border: 2px solid red;
+    margin-left: 15px;
+    margin-top: 4px;
+    height: 150px;
+    width: 150px;
+  }
+
+  .nestedSquare {
+    height:100px;
+    width:100px;
+    background:orange;
+    margin:10px
+  }
